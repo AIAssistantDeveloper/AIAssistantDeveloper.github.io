@@ -1,0 +1,12 @@
+title: Idea List
+description: A collection of ideas for the project
+---
+ideas:
+  - title: Feature: Dark Mode
+    description: Implement a dark mode theme for improved user experience.
+    priority: high
+    status: open
+  - title: Feature: Search Functionality
+    description: Add a search bar for quick content discovery.
+    priority: medium
+    status: open

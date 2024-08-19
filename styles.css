@@ -1,0 +1,78 @@
+* {
+  background-color: ghostwhite;
+  color: #494949;
+  font-family: Arial, sans-serif;
+  margin: 10; padding: 10;
+}
+
+  body {
+    text-align: justify;
+    margin: 0; padding: 0;
+  }
+
+  header {
+    background-color: #494949;
+    /* Slate Gray Background Styling */
+    background-image: linear-gradient(to right, #222, #333, #222, #333);
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: repeat;
+    box-sizing: 100%;
+    text-align: center;
+    padding-bottom: 0px;
+    min-width: 360px;
+    min-height: 80px;
+  }
+
+/* Not In Use - Fully Functional...
+  .btn {
+    margin-top: 5px;
+    background-color: azure;
+    text-decoration-color: darkslategrey;
+    border-width: 1px;
+    border-color: darkslategrey;
+    min-width: 100%; max-width: 100%; 
+    min-height: 100%; max-height: 100%;
+  }
+*/
+/* Transform the vertical list into a horizontal one and enclose in box */
+
+  nav {
+    color: #494949;
+    background-color: #494949; /* Optional background color */
+    padding: 10px; /* Padding for spacing */
+    border: 1px solid; /* Optional border */
+    border-color: F2F4F4;
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    white-space: nowrap; /* Prevent text wrapping */
+    justify-content: space-evenly;
+    
+  }
+  .nav-menu {
+    color: 494949;
+    background-color: #494949;
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Display as flex container */
+    justify-content: space-between; /* Distribute items evenly */
+  }
+  .nav-menu li {
+    width: 90%; height: 20%;
+    background-color: #F2F4F4; opacity: 100%;
+    border-color: azure; border-width: 0.5px;
+    display: inline-block; /* Display list items inline */
+    margin: 0 5px; /* Add spacing between items */
+    max-width: 150px; /* Adjust max width as needed */
+    overflow: visible; /* Hide/Unhide overflowed content */
+    text-overflow: ellipsis; /* Display ellipsis for truncated text */
+  }
+  .nav-menu a {
+    text-decoration: none; /* Remove underline from links */
+    color: #2F4F4F; /* Link color */
+    padding: 5px 10px; /* Padding for links */
+    
+  }
+  .nav-menu a:hover {
+    background-color: #ccc; /* Hover effect */
+    color: #fff; /* Hover color */
+    
+  }

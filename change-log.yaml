@@ -1,0 +1,16 @@
+title: Change Log
+description: Record of changes made to the project
+---
+changes:
+  - date: MM-dd-yyyy
+    time: 4:45PM
+    type: feature
+    description: Implemented dark mode theme.
+    author: Tony
+    ticket: #001
+  - date: MM-dd-yyyy
+    time: 5:00Pm
+    type: bugfix
+    description: Fixed a bug in the navigation menu.
+    author: James
+    ticket: #002

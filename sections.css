@@ -1,0 +1,78 @@
+/* Adjust to row for horizontal layout */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Slate Gray Background Styling */
+  background-image: linear-gradient(to right, #222, #333, #222, #333);
+  background-size: 200px 200px;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+/* Add your styling for each hero section here */
+.hero {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: azure;
+  
+  background-size: 100%;
+  /* Making Blocks (Gray Ones) Reusable & Dynamic */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero-icon {
+  display: none;
+}
+
+.tgl {
+  width: 100%; height: 25%;
+  background-color: #F2F4F4; opacity: 90%;
+  border-color: azure; border-width: 1px
+}
+
+/* Optional: Add a class for solid background */
+.solid-background {
+  background-color: #494949;
+  color: darkslategrey;
+}
+
+.solid-background-header {
+  background-color: #494949;
+  color: darkslategrey;
+}
+
+.navSectionBackground{
+  background-color: #494949;
+  color: darkslategrey;
+}
+
+.navMenuSectionBackground {
+  background-color: #494949;
+  color: darkslategrey;
+}
+
+.navMenuLiSectionBackground {
+  background-color: #494949;
+  color: darkslategrey;
+}
+
+footer {
+  background-color: #F2F4F4; opacity: 90%; border-color: azure; border-width: 1px;
+  font-size: 10px;
+  padding: 2px;
+  text-justify: stretch;
+  align-content: center;
+  text-align: center;
+  vertical-align: center;
+  justify-content: center;
+}

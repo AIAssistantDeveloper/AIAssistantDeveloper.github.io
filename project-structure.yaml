@@ -1,0 +1,19 @@
+project: storage/emulated/0/web-projects/
+  name: linklistsite
+  files:
+  - metadata:
+    - project-structure.yaml
+    - change-log.yaml
+    - idea-list.yaml
+  - link-list:
+    - Home.html
+    - Subpages:
+      - About.html
+      - Careers.html
+      - Contact.html
+      - Services.html
+    - Styles:
+      - sections.css
+      - styles.css
+    - Scripts:
+      - scripts.js
